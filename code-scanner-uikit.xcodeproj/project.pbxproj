@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF8DA4CD2E4A4D6F005F4AC5 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DA4CC2E4A4D6F005F4AC5 /* Controller.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EF8DA4B32E4A4A07005F4AC5 /* code-scanner-uikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "code-scanner-uikit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8DA4CC2E4A4D6F005F4AC5 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +50,7 @@
 		EF8DA4AA2E4A4A07005F4AC5 = {
 			isa = PBXGroup;
 			children = (
+				EF8DA4CC2E4A4D6F005F4AC5 /* Controller.swift */,
 				EF8DA4B52E4A4A07005F4AC5 /* code-scanner-uikit */,
 				EF8DA4B42E4A4A07005F4AC5 /* Products */,
 			);
@@ -132,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8DA4CD2E4A4D6F005F4AC5 /* Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
